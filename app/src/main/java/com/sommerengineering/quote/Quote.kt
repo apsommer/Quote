@@ -22,6 +22,6 @@ sealed class QuoteState {
 
 interface QuoteService {
 
-    @GET("today")
+    @GET("random")
     suspend fun getQuotes(): Response<Quotes>
 }
